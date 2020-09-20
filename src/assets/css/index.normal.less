@@ -1,0 +1,153 @@
+@import './normalize.normal.less';
+@import './common.normal.less';
+@import './animate.normal.less';
+
+@commonColor: #a14eff;
+@commonBgColor: #eff0fa;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // color: #fff !important;
+}
+
+// wrap
+.commonWrap {
+  width: 100%;
+  height: 100%;
+}
+
+.layout-content {
+  padding: 24px 0;
+  margin: 0px;
+  height: 100%;
+}
+
+.ant-layout {
+  background: @commonBgColor !important;
+}
+
+// settlement
+.settlement {
+  background: @commonBgColor;
+}
+
+// other
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#root {
+  height: 100vh;
+  background-color: #eff0fa;
+}
+
+.status2 {
+  padding: 5px 10px;
+  background-color: #1890ff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.bsp {
+  background-color: #1890ff;
+  color: #fff;
+  padding: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.totalNumber {
+  background: #e6f2ff;
+  margin-top: 20px;
+  border: 1px solid #b3e4ff;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+#myFormPartOut {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px;
+  background: #fff;
+}
+
+.colRangeDate {
+  .ant-form-item-control-wrapper {
+    width: 73%;
+  }
+}
+
+.selectChange {
+  cursor: pointer;
+  position: relative;
+
+  .iconCom {
+    transition: all 0.5s;
+  }
+
+  .ponext {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    background: #fff;
+    z-index: 3;
+    display: none;
+  }
+
+  .topText {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .iconCom {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 4px;
+    top: 30%;
+    z-index: 2;
+
+    transform-origin: center;
+  }
+
+  .myIconUp {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 4px;
+    top: 30%;
+    z-index: 2;
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
+}
+
+.selectChange:hover {
+  .ponext {
+    display: block;
+  }
+
+  .iconCom {
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
+}

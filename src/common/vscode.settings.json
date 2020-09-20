@@ -1,0 +1,79 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": false
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".ts",
+      ".tsx",
+      ".html"
+    ]
+  },
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "vue",
+    "vue-html",
+    "react",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "extensions.ignoreRecommendations": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "git.enableSmartCommit": true,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "git.ignoreLimitWarning": false,
+  "git.countBadge": "all",
+  "git.confirmSync": false,
+  "editor.fontSize": 18,
+  "breadcrumbs.enabled": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "markdown-preview-enhanced.codeBlockTheme": "default.css",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnType": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
